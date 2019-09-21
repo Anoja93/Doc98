@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<mat-sidenav-container class="fullwidth-container">
+
+
+  <mat-sidenav class="sidebar" #sidenav >
+    <app-sidebar></app-sidebar>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <mat-toolbar-row>
+        <button mat-icon-button *ngIf="session.getAuth()" (click)="sidenav.open()"><mat-icon>menu</mat-icon></button>
+        <span>DOC 98</span>
+      </mat-toolbar-row>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
+
+

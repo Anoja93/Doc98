@@ -1,0 +1,14 @@
+.sidebar-card {
+    max-width: 400px;
+    background-color: aquamarine;
+  }
+  
+  .sidebar-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    width:180px;
+    height: 180px;
+    margin-bottom: 20px;
+    margin: auto;
+    background-size: cover;
+  }
+  

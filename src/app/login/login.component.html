@@ -1,0 +1,28 @@
+<div class="page">
+
+<p>
+    <mat-form-field appearance="outline">
+        <mat-label>Your Email</mat-label>
+        <input [formControl]="myControl1" matInput placeholder="john@example.com">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Enter Your Email</mat-hint>
+      </mat-form-field>
+</p>
+
+<p>
+  <mat-form-field appearance="outline">
+    <mat-label>Your Password</mat-label>
+    <input type="password" [formControl]="myControl2" matInput placeholder="password">
+    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    <mat-hint>Enter Your Password</mat-hint>
+  </mat-form-field>
+
+</p>
+
+<button (click)="login()" class="btn" mat-raised-button-color="accent">
+    <mat-icon>favourite</mat-icon>
+    Login
+  </button>
+
+</div>
+

@@ -1,0 +1,45 @@
+<div class="page">
+  <p>
+    <mat-form-field appearance="outline">
+        <mat-label>Your Name</mat-label>
+        <input [formControl]="myControl1" matInput placeholder="JohnCena">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Enter Your Name</mat-hint>
+      </mat-form-field>
+  </p>
+
+
+<p>
+    <mat-form-field appearance="outline">
+        <mat-label>Your Email</mat-label>
+        <input [formControl]="myControl2" matInput placeholder="john@example.com">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Enter Your Email</mat-hint>
+      </mat-form-field>
+</p>
+
+<p>
+    <mat-form-field appearance="outline">
+        <mat-label>Your Mobile</mat-label>
+        <input [formControl]="myControl3" matInput placeholder="07xxxxxxxx">
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        <mat-hint>Enter Your Mobile</mat-hint>
+      </mat-form-field>
+</p>
+
+<p>
+  <mat-form-field appearance="outline">
+    <mat-label>Your Password</mat-label>
+    <input type="password" [formControl]="myControl4" matInput placeholder="password">
+    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    <mat-hint>Enter Your Password</mat-hint>
+  </mat-form-field>
+
+</p>
+
+<button (click)="register()" class="btn" mat-raised-button-color="accent">
+    <mat-icon>favourite</mat-icon>
+    Register
+  </button>
+
+</div>

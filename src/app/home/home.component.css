@@ -1,0 +1,33 @@
+.field{
+    width : 100%;
+}
+
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+
+.btn{
+    width:100%;
+}
+
+.logoutbtn{
+    
+}
+
+.full-width{
+    position: absolute;
+    top: 60px;
+    left:0;
+    right: 0;
+    bottom: 0;
+}
+
+.logo{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width:50%;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}

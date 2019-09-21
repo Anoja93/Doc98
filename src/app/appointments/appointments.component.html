@@ -1,0 +1,14 @@
+<h2>My Past Appointments</h2>
+
+<mat-list>
+  <mat-list-item *ngFor="let appointment of appointments">
+     {{appointment.name}} 
+     {{appointment.no}} 
+     {{appointment.date}} 
+     {{appointment.doctor_name}} 
+     {{appointment.hospital_name}} 
+     {{appointment.speciality_name}} 
+     {{appointment.hospital_place}} 
+  </mat-list-item>
+ </mat-list>
+
